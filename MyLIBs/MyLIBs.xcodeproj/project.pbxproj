@@ -7,24 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A5434E0B2A038F8800F42197 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5434E0A2A038F8800F42197 /* AppDelegate.swift */; };
-		A5434E0D2A038F8800F42197 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5434E0C2A038F8800F42197 /* SceneDelegate.swift */; };
-		A5434E0F2A038F8800F42197 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5434E0E2A038F8800F42197 /* ViewController.swift */; };
 		A5434E142A038F8900F42197 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5434E132A038F8900F42197 /* Assets.xcassets */; };
 		A5434E172A038F8900F42197 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5434E152A038F8900F42197 /* LaunchScreen.storyboard */; };
 		A5434E202A0390E300F42197 /* RIBs in Frameworks */ = {isa = PBXBuildFile; productRef = A5434E1F2A0390E300F42197 /* RIBs */; };
 		A5434E232A0390F900F42197 /* NeedleFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = A5434E222A0390F900F42197 /* NeedleFoundation */; };
 		A5434E262A03910B00F42197 /* ReactorKit in Frameworks */ = {isa = PBXBuildFile; productRef = A5434E252A03910B00F42197 /* ReactorKit */; };
+		A5434E372A0392E100F42197 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5434E332A0392E100F42197 /* ViewController.swift */; };
+		A5434E382A0392E100F42197 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5434E342A0392E100F42197 /* AppDelegate.swift */; };
+		A5434E392A0392E100F42197 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5434E352A0392E100F42197 /* SceneDelegate.swift */; };
+		A5434E3F2A039F6A00F42197 /* NeedleGenerated.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5434E3E2A039F6A00F42197 /* NeedleGenerated.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A5434E072A038F8800F42197 /* MyLIBs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyLIBs.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A5434E0A2A038F8800F42197 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A5434E0C2A038F8800F42197 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A5434E0E2A038F8800F42197 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A5434E132A038F8900F42197 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5434E162A038F8900F42197 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5434E182A038F8900F42197 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5434E332A0392E100F42197 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A5434E342A0392E100F42197 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A5434E352A0392E100F42197 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A5434E3E2A039F6A00F42197 /* NeedleGenerated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeedleGenerated.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,14 +62,79 @@
 		A5434E092A038F8800F42197 /* MyLIBs */ = {
 			isa = PBXGroup;
 			children = (
-				A5434E0A2A038F8800F42197 /* AppDelegate.swift */,
-				A5434E0C2A038F8800F42197 /* SceneDelegate.swift */,
-				A5434E0E2A038F8800F42197 /* ViewController.swift */,
-				A5434E132A038F8900F42197 /* Assets.xcassets */,
+				A5434E292A0392E100F42197 /* Source */,
+				A5434E3A2A0392F100F42197 /* Resources */,
 				A5434E152A038F8900F42197 /* LaunchScreen.storyboard */,
 				A5434E182A038F8900F42197 /* Info.plist */,
 			);
 			path = MyLIBs;
+			sourceTree = "<group>";
+		};
+		A5434E292A0392E100F42197 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				A5434E2C2A0392E100F42197 /* Presentation */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		A5434E2C2A0392E100F42197 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				A5434E322A0392E100F42197 /* AppStart */,
+				A5434E2D2A0392E100F42197 /* Scenses */,
+				A5434E2E2A0392E100F42197 /* Extensions */,
+				A5434E2F2A0392E100F42197 /* Utilities */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		A5434E2D2A0392E100F42197 /* Scenses */ = {
+			isa = PBXGroup;
+			children = (
+				A5434E332A0392E100F42197 /* ViewController.swift */,
+			);
+			path = Scenses;
+			sourceTree = "<group>";
+		};
+		A5434E2E2A0392E100F42197 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A5434E2F2A0392E100F42197 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				A5434E302A0392E100F42197 /* Generated */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		A5434E302A0392E100F42197 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				A5434E3E2A039F6A00F42197 /* NeedleGenerated.swift */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		A5434E322A0392E100F42197 /* AppStart */ = {
+			isa = PBXGroup;
+			children = (
+				A5434E342A0392E100F42197 /* AppDelegate.swift */,
+				A5434E352A0392E100F42197 /* SceneDelegate.swift */,
+			);
+			path = AppStart;
+			sourceTree = "<group>";
+		};
+		A5434E3A2A0392F100F42197 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A5434E132A038F8900F42197 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -80,6 +147,7 @@
 				A5434E032A038F8800F42197 /* Sources */,
 				A5434E042A038F8800F42197 /* Frameworks */,
 				A5434E052A038F8800F42197 /* Resources */,
+				A5434E3B2A03949100F42197 /* Needle */,
 			);
 			buildRules = (
 			);
@@ -145,14 +213,36 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A5434E3B2A03949100F42197 /* Needle */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Needle;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nSOURCE_ROOT=\"MyLIBs/Source\"\nFILE_PATH=\"${SOURCE_ROOT}/Presentation/Utilities/Generated\"\nexport PATH=\"$PATH:/opt/homebrew/bin\"\nexport SOURCEKIT_LOGGING=0 && needle generate ${FILE_PATH}/NeedleGenerated.swift ${SOURCE_ROOT}/\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A5434E032A038F8800F42197 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5434E0F2A038F8800F42197 /* ViewController.swift in Sources */,
-				A5434E0B2A038F8800F42197 /* AppDelegate.swift in Sources */,
-				A5434E0D2A038F8800F42197 /* SceneDelegate.swift in Sources */,
+				A5434E3F2A039F6A00F42197 /* NeedleGenerated.swift in Sources */,
+				A5434E382A0392E100F42197 /* AppDelegate.swift in Sources */,
+				A5434E392A0392E100F42197 /* SceneDelegate.swift in Sources */,
+				A5434E372A0392E100F42197 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
