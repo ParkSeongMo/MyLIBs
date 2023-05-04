@@ -16,6 +16,25 @@
 		A5434E382A0392E100F42197 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5434E342A0392E100F42197 /* AppDelegate.swift */; };
 		A5434E392A0392E100F42197 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5434E352A0392E100F42197 /* SceneDelegate.swift */; };
 		A5434E3F2A039F6A00F42197 /* NeedleGenerated.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5434E3E2A039F6A00F42197 /* NeedleGenerated.swift */; };
+		A5434E412A039FC000F42197 /* AppComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5434E402A039FC000F42197 /* AppComponent.swift */; };
+		A5434E482A039FDD00F42197 /* RootInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5434E442A039FDD00F42197 /* RootInteractor.swift */; };
+		A5434E492A039FDD00F42197 /* RootBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5434E452A039FDD00F42197 /* RootBuilder.swift */; };
+		A5434E4A2A039FDD00F42197 /* RootRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5434E462A039FDD00F42197 /* RootRouter.swift */; };
+		A5434E502A03A04B00F42197 /* MainTabBarBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5434E4C2A03A04B00F42197 /* MainTabBarBuilder.swift */; };
+		A5434E512A03A04B00F42197 /* MainTabBarInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5434E4D2A03A04B00F42197 /* MainTabBarInteractor.swift */; };
+		A5434E522A03A04B00F42197 /* MainTabBarRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5434E4E2A03A04B00F42197 /* MainTabBarRouter.swift */; };
+		A5434E532A03A04B00F42197 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5434E4F2A03A04B00F42197 /* MainTabBarViewController.swift */; };
+		A5434E592A03A09B00F42197 /* HomeInterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5434E552A03A09B00F42197 /* HomeInterator.swift */; };
+		A5434E5A2A03A09B00F42197 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5434E562A03A09B00F42197 /* HomeViewController.swift */; };
+		A5434E5B2A03A09B00F42197 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5434E572A03A09B00F42197 /* HomeRouter.swift */; };
+		A5434E5C2A03A09B00F42197 /* HomeBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5434E582A03A09B00F42197 /* HomeBuilder.swift */; };
+		A5434E622A03A17400F42197 /* HomePresentableState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5434E602A03A17400F42197 /* HomePresentableState.swift */; };
+		A5434E652A03B0A000F42197 /* PropertyBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5434E642A03B0A000F42197 /* PropertyBuilder.swift */; };
+		A5434E672A03B0B300F42197 /* PropertyBuilderCompatible.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5434E662A03B0B300F42197 /* PropertyBuilderCompatible.swift */; };
+		A5434E6A2A03B0D300F42197 /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5434E692A03B0D300F42197 /* ArrayExtensions.swift */; };
+		A5434E6E2A03B15100F42197 /* ViewControllableExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5434E6C2A03B15100F42197 /* ViewControllableExtensions.swift */; };
+		A5434E6F2A03B15100F42197 /* ComponentizedBuilderExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5434E6D2A03B15100F42197 /* ComponentizedBuilderExtensions.swift */; };
+		A5434E772A03B1C900F42197 /* UINavigationControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5434E732A03B1C900F42197 /* UINavigationControllerExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +46,25 @@
 		A5434E342A0392E100F42197 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5434E352A0392E100F42197 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A5434E3E2A039F6A00F42197 /* NeedleGenerated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeedleGenerated.swift; sourceTree = "<group>"; };
+		A5434E402A039FC000F42197 /* AppComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppComponent.swift; sourceTree = "<group>"; };
+		A5434E442A039FDD00F42197 /* RootInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootInteractor.swift; sourceTree = "<group>"; };
+		A5434E452A039FDD00F42197 /* RootBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootBuilder.swift; sourceTree = "<group>"; };
+		A5434E462A039FDD00F42197 /* RootRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootRouter.swift; sourceTree = "<group>"; };
+		A5434E4C2A03A04B00F42197 /* MainTabBarBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarBuilder.swift; sourceTree = "<group>"; };
+		A5434E4D2A03A04B00F42197 /* MainTabBarInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarInteractor.swift; sourceTree = "<group>"; };
+		A5434E4E2A03A04B00F42197 /* MainTabBarRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarRouter.swift; sourceTree = "<group>"; };
+		A5434E4F2A03A04B00F42197 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		A5434E552A03A09B00F42197 /* HomeInterator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeInterator.swift; sourceTree = "<group>"; };
+		A5434E562A03A09B00F42197 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A5434E572A03A09B00F42197 /* HomeRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		A5434E582A03A09B00F42197 /* HomeBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeBuilder.swift; sourceTree = "<group>"; };
+		A5434E602A03A17400F42197 /* HomePresentableState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePresentableState.swift; sourceTree = "<group>"; };
+		A5434E642A03B0A000F42197 /* PropertyBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyBuilder.swift; sourceTree = "<group>"; };
+		A5434E662A03B0B300F42197 /* PropertyBuilderCompatible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyBuilderCompatible.swift; sourceTree = "<group>"; };
+		A5434E692A03B0D300F42197 /* ArrayExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtensions.swift; sourceTree = "<group>"; };
+		A5434E6C2A03B15100F42197 /* ViewControllableExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllableExtensions.swift; sourceTree = "<group>"; };
+		A5434E6D2A03B15100F42197 /* ComponentizedBuilderExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComponentizedBuilderExtensions.swift; sourceTree = "<group>"; };
+		A5434E732A03B1C900F42197 /* UINavigationControllerExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UINavigationControllerExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +111,7 @@
 		A5434E292A0392E100F42197 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				A5434E5D2A03A15F00F42197 /* Domain */,
 				A5434E2C2A0392E100F42197 /* Presentation */,
 			);
 			path = Source;
@@ -93,6 +132,9 @@
 			isa = PBXGroup;
 			children = (
 				A5434E332A0392E100F42197 /* ViewController.swift */,
+				A5434E422A039FCF00F42197 /* Root */,
+				A5434E4B2A03A04B00F42197 /* MainTabBar */,
+				A5434E542A03A07400F42197 /* HomeTab */,
 			);
 			path = Scenses;
 			sourceTree = "<group>";
@@ -100,6 +142,9 @@
 		A5434E2E2A0392E100F42197 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				A5434E682A03B0D300F42197 /* Foundation+Extensions */,
+				A5434E6B2A03B15100F42197 /* RIBs+Extensions */,
+				A5434E702A03B1C900F42197 /* UIKit+Extension */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -108,6 +153,8 @@
 			isa = PBXGroup;
 			children = (
 				A5434E302A0392E100F42197 /* Generated */,
+				A5434E642A03B0A000F42197 /* PropertyBuilder.swift */,
+				A5434E662A03B0B300F42197 /* PropertyBuilderCompatible.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -125,6 +172,7 @@
 			children = (
 				A5434E342A0392E100F42197 /* AppDelegate.swift */,
 				A5434E352A0392E100F42197 /* SceneDelegate.swift */,
+				A5434E402A039FC000F42197 /* AppComponent.swift */,
 			);
 			path = AppStart;
 			sourceTree = "<group>";
@@ -135,6 +183,88 @@
 				A5434E132A038F8900F42197 /* Assets.xcassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		A5434E422A039FCF00F42197 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				A5434E452A039FDD00F42197 /* RootBuilder.swift */,
+				A5434E442A039FDD00F42197 /* RootInteractor.swift */,
+				A5434E462A039FDD00F42197 /* RootRouter.swift */,
+			);
+			name = Root;
+			path = "깨ㅐㅅ";
+			sourceTree = "<group>";
+		};
+		A5434E4B2A03A04B00F42197 /* MainTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				A5434E4C2A03A04B00F42197 /* MainTabBarBuilder.swift */,
+				A5434E4D2A03A04B00F42197 /* MainTabBarInteractor.swift */,
+				A5434E4E2A03A04B00F42197 /* MainTabBarRouter.swift */,
+				A5434E4F2A03A04B00F42197 /* MainTabBarViewController.swift */,
+			);
+			path = MainTabBar;
+			sourceTree = "<group>";
+		};
+		A5434E542A03A07400F42197 /* HomeTab */ = {
+			isa = PBXGroup;
+			children = (
+				A5434E582A03A09B00F42197 /* HomeBuilder.swift */,
+				A5434E552A03A09B00F42197 /* HomeInterator.swift */,
+				A5434E572A03A09B00F42197 /* HomeRouter.swift */,
+				A5434E562A03A09B00F42197 /* HomeViewController.swift */,
+			);
+			path = HomeTab;
+			sourceTree = "<group>";
+		};
+		A5434E5D2A03A15F00F42197 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				A5434E5E2A03A16D00F42197 /* Models */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		A5434E5E2A03A16D00F42197 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A5434E5F2A03A17400F42197 /* HomeTab */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A5434E5F2A03A17400F42197 /* HomeTab */ = {
+			isa = PBXGroup;
+			children = (
+				A5434E602A03A17400F42197 /* HomePresentableState.swift */,
+			);
+			path = HomeTab;
+			sourceTree = "<group>";
+		};
+		A5434E682A03B0D300F42197 /* Foundation+Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A5434E692A03B0D300F42197 /* ArrayExtensions.swift */,
+			);
+			path = "Foundation+Extensions";
+			sourceTree = "<group>";
+		};
+		A5434E6B2A03B15100F42197 /* RIBs+Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A5434E6C2A03B15100F42197 /* ViewControllableExtensions.swift */,
+				A5434E6D2A03B15100F42197 /* ComponentizedBuilderExtensions.swift */,
+			);
+			path = "RIBs+Extensions";
+			sourceTree = "<group>";
+		};
+		A5434E702A03B1C900F42197 /* UIKit+Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A5434E732A03B1C900F42197 /* UINavigationControllerExtensions.swift */,
+			);
+			path = "UIKit+Extension";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,10 +369,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5434E652A03B0A000F42197 /* PropertyBuilder.swift in Sources */,
+				A5434E6F2A03B15100F42197 /* ComponentizedBuilderExtensions.swift in Sources */,
+				A5434E412A039FC000F42197 /* AppComponent.swift in Sources */,
 				A5434E3F2A039F6A00F42197 /* NeedleGenerated.swift in Sources */,
+				A5434E482A039FDD00F42197 /* RootInteractor.swift in Sources */,
+				A5434E592A03A09B00F42197 /* HomeInterator.swift in Sources */,
+				A5434E5B2A03A09B00F42197 /* HomeRouter.swift in Sources */,
+				A5434E512A03A04B00F42197 /* MainTabBarInteractor.swift in Sources */,
+				A5434E6E2A03B15100F42197 /* ViewControllableExtensions.swift in Sources */,
+				A5434E772A03B1C900F42197 /* UINavigationControllerExtensions.swift in Sources */,
+				A5434E5A2A03A09B00F42197 /* HomeViewController.swift in Sources */,
+				A5434E4A2A039FDD00F42197 /* RootRouter.swift in Sources */,
+				A5434E672A03B0B300F42197 /* PropertyBuilderCompatible.swift in Sources */,
 				A5434E382A0392E100F42197 /* AppDelegate.swift in Sources */,
+				A5434E6A2A03B0D300F42197 /* ArrayExtensions.swift in Sources */,
 				A5434E392A0392E100F42197 /* SceneDelegate.swift in Sources */,
+				A5434E522A03A04B00F42197 /* MainTabBarRouter.swift in Sources */,
 				A5434E372A0392E100F42197 /* ViewController.swift in Sources */,
+				A5434E5C2A03A09B00F42197 /* HomeBuilder.swift in Sources */,
+				A5434E532A03A04B00F42197 /* MainTabBarViewController.swift in Sources */,
+				A5434E492A039FDD00F42197 /* RootBuilder.swift in Sources */,
+				A5434E502A03A04B00F42197 /* MainTabBarBuilder.swift in Sources */,
+				A5434E622A03A17400F42197 /* HomePresentableState.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
