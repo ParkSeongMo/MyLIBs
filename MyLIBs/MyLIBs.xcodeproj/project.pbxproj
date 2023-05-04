@@ -12,6 +12,9 @@
 		A5434E0F2A038F8800F42197 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5434E0E2A038F8800F42197 /* ViewController.swift */; };
 		A5434E142A038F8900F42197 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5434E132A038F8900F42197 /* Assets.xcassets */; };
 		A5434E172A038F8900F42197 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5434E152A038F8900F42197 /* LaunchScreen.storyboard */; };
+		A5434E202A0390E300F42197 /* RIBs in Frameworks */ = {isa = PBXBuildFile; productRef = A5434E1F2A0390E300F42197 /* RIBs */; };
+		A5434E232A0390F900F42197 /* NeedleFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = A5434E222A0390F900F42197 /* NeedleFoundation */; };
+		A5434E262A03910B00F42197 /* ReactorKit in Frameworks */ = {isa = PBXBuildFile; productRef = A5434E252A03910B00F42197 /* ReactorKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5434E232A0390F900F42197 /* NeedleFoundation in Frameworks */,
+				A5434E262A03910B00F42197 /* ReactorKit in Frameworks */,
+				A5434E202A0390E300F42197 /* RIBs in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +86,11 @@
 			dependencies = (
 			);
 			name = MyLIBs;
+			packageProductDependencies = (
+				A5434E1F2A0390E300F42197 /* RIBs */,
+				A5434E222A0390F900F42197 /* NeedleFoundation */,
+				A5434E252A03910B00F42197 /* ReactorKit */,
+			);
 			productName = MyLIBs;
 			productReference = A5434E072A038F8800F42197 /* MyLIBs.app */;
 			productType = "com.apple.product-type.application";
@@ -108,6 +119,11 @@
 				Base,
 			);
 			mainGroup = A5434DFE2A038F8800F42197;
+			packageReferences = (
+				A5434E1E2A0390E300F42197 /* XCRemoteSwiftPackageReference "RIBs" */,
+				A5434E212A0390F900F42197 /* XCRemoteSwiftPackageReference "needle" */,
+				A5434E242A03910B00F42197 /* XCRemoteSwiftPackageReference "ReactorKit" */,
+			);
 			productRefGroup = A5434E082A038F8800F42197 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -342,6 +358,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A5434E1E2A0390E300F42197 /* XCRemoteSwiftPackageReference "RIBs" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/uber/RIBs.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.2;
+			};
+		};
+		A5434E212A0390F900F42197 /* XCRemoteSwiftPackageReference "needle" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/uber/needle.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		A5434E242A03910B00F42197 /* XCRemoteSwiftPackageReference "ReactorKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactorKit/ReactorKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A5434E1F2A0390E300F42197 /* RIBs */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A5434E1E2A0390E300F42197 /* XCRemoteSwiftPackageReference "RIBs" */;
+			productName = RIBs;
+		};
+		A5434E222A0390F900F42197 /* NeedleFoundation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A5434E212A0390F900F42197 /* XCRemoteSwiftPackageReference "needle" */;
+			productName = NeedleFoundation;
+		};
+		A5434E252A03910B00F42197 /* ReactorKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A5434E242A03910B00F42197 /* XCRemoteSwiftPackageReference "ReactorKit" */;
+			productName = ReactorKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A5434DFF2A038F8800F42197 /* Project object */;
 }
